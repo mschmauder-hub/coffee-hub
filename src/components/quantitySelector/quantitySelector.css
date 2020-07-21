@@ -1,25 +1,25 @@
-.container {
+.coffeeSelector {
   display: flex;
   align-items: center;
-  font-family: monospace;
+  font-family: "Sen", sans-serif;
 }
 
-.quantity {
+.quantity-btn {
   background: #cf9775;
-  padding: 5px 15px 5px 15px;
+  padding: 5px 15px;
   border: none;
   color: #fff;
   font-size: 1.1rem;
 }
 
-.increase {
+.decrease-btn {
   border-radius: 20px 0 0 20px;
 }
-.decrease {
+.increase-btn {
   border-radius: 0 20px 20px 0;
 }
 
 .counter {
+  margin: 0 15px;
   font-size: 1.1rem;
-  margin: 0 15px 0 15px;
 }
