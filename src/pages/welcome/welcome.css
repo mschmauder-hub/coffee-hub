@@ -5,4 +5,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+}
+
+.welcomeScreen > img {
+  animation: ease-out;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-right: 100%;
+    transform: translateY(-100px);
+  }
+
+  to {
+    margin-bottom: 0;
+  }
 }
