@@ -1,0 +1,23 @@
+.list {
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+}
+
+.list > li {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.list > li > :first-child {
+  flex-basis: 90px;
+}
+
+.list > li > span {
+  flex-grow: 1;
+}
+
+.list > li > :last-child {
+  flex-basis: 20px;
+}
