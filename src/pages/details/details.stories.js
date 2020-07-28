@@ -1,14 +1,11 @@
 import { useEffect } from "@storybook/client-api";
+import { createButton } from "../../components/button/button";
 
 export default {
   title: "Pages/Details",
 };
 export const basic = () => {
-  useEffect(() => {
-    const button = document.querySelector(".btn");
-    button.addEventListener("click", () => {
-      button.innerHTML = "Mehr Fische";
-    });
-  });
-  return '<button class="btn" >Hallo Fische</button>';
+  const button = createButton("Add to cart");
+
+  return button;
 };
