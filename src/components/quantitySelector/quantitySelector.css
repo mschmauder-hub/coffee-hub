@@ -32,3 +32,8 @@
 .coffeeSelector > button > svg {
   fill: white;
 }
+
+.decrease-btn:disabled {
+  background: grey;
+  cursor: auto;
+}
