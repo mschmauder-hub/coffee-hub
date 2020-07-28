@@ -1,10 +1,27 @@
 import "./button.css";
+import { useEffect } from "@storybook/client-api";
 
 export default { title: "Button" };
 
-export const addToCart = () => {
+function createButton(text) {
   const button = document.createElement("button");
-  button.classList.add("btn");
-  button.innerText = "Add to Cart";
+  button.className = "btn";
+  button.innerText = text;
   return button;
+}
+
+const buttonClick = () => {
+  useEffect(() => {
+    const button = document.querySelector(".btn");
+    button.addEventListener("click", () => {
+      alert("Add to Cart");
+    });
+  });
+};
+
+export const addToCart = () => {
+  const firstButton = createButton("Add to Cart");
+  buttonClick();
+
+  return firstButton;
 };
