@@ -12,8 +12,3 @@ export const basic = () => {
   });
   return '<button class="btn" >Hallo Fische</button>';
 };
-
-// const numberOfStudents = 15;
-// const text = `Hello  ${numberOfStudents} Fische`;
-
-// alert(text);
