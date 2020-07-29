@@ -1,4 +1,4 @@
-.coffeeSelector {
+.quantitySelector {
   display: flex;
   align-items: stretch;
 }
@@ -27,10 +27,6 @@
   font-size: 1.1rem;
   display: flex;
   align-items: center;
-}
-
-.coffeeSelector > button > svg {
-  fill: white;
 }
 
 .decrease-btn:disabled {
