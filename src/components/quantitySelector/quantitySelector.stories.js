@@ -3,7 +3,7 @@ import { createQuantitySelector } from "./quantitySelector";
 
 export default { title: "quantitySelector" };
 
-export const simpleSelector = () => {
+export const quantitySelector = () => {
   const quantitySelector = createQuantitySelector();
 
   return quantitySelector;

@@ -1,6 +1,7 @@
 import minus from "../../assets/minus.svg";
 import plus from "../../assets/plus.svg";
 import { createElement } from "../../utils/element";
+
 export function createQuantitySelector() {
   const quantitySelector = createElement("div", {
     className: "quantitySelector",

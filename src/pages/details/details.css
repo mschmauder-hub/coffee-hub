@@ -1,0 +1,33 @@
+.details {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.details__header {
+  flex-grow: 1;
+  background: url(../../assets/details-bg.png);
+  background-size: cover;
+}
+
+.details__form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 24px 55px 24px;
+}
+.details__form > * {
+  margin-bottom: 20px;
+}
+.details__form > label {
+  flex-basis: 100%;
+}
+.details__form > label > input {
+  display: block;
+}
+
+.details__form > button {
+  margin: 0 auto;
+}
